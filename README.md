@@ -5,6 +5,8 @@ Most of the web scrappers use the BeautifulSoup to read the response of the URL 
 Those web scrappers fail to extract the required text if it is not in text format.<br>
 Below is the example where But it failed to extract the e-mail ID’s when I make the following URL request **https://www.google.com/search?q=emails+stryker.com%28"** which gives us 28 results of **emails stryker.com”**.
 
+![CFormat comparison (Expected Vs Actual)](https://github.com/arjunjv/web_scrapper_ocr/blob/master/comaprsion.png)
+
 **My need is very simple, I need to get what I see with my eyes**. So, I tried using OCR/ML models to recognize characters from a given picture. Tesseract library, an optical character recognition (OCR) tool for python provided by Google.
 
 
