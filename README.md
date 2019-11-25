@@ -1,4 +1,4 @@
-# web_scrapper_ocr
+# web scrapper using OCR
 
 Most of the web scrappers use the BeautifulSoup to read the response of the URL request response to extract the data they required.
 
